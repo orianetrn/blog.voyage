@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="contact3.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <div id="logo"> <a href="home.html"></a> <img src="les carnets de oriane blanc.png" width="150px"> </div>
+                </li>
+                <li><a href="homeEnglish.html">Home</a></li>
+                <li><a href="blogEnglish.html">Blog</a></li>
+                <li><a href="contactEnglish.html">Contact</a></li>
+                <ul>
+        </nav>
+    </header>
+
+    <button id="button">Français</button>
+
+    <!-- Formulaire -->
+
+    <div id="general">
+
+        <div id="texte2">
+            <div id="contact"> Contact me</div>
+        </div>
+
+        <br>
+
+        <form method="POST" action="sendMessage.php" id="formulaire">
+            <label for="nom">Last Name</label>
+            <input id="nom" name="nom" />
+            
+            <label for="prenom">First Name</label>
+            <input id="prenom" name="prenom" />
+        
+            <label for="email">Email</label>
+            <input id="email" name="email" />
+        
+            <label for="message">Message</label>
+            <input id="message" name="message" />
+            
+            <button type="submit">Send my message</button>
+        </form> 
+
+        <div id='msg'> </div>
+
+        <div id="footer">
+
+            <div id="instagram">
+                <img src="instagram.png" target="_blank" id="insta" href="https://www.instagram.com/les_carnets_de_oriane/?hl=fr">
+                <a href="https://www.instagram.com/les_carnets_de_oriane/?hl=fr" target="_blank" id="carnets" >les_carnets_de_oriane</a>
+            </div>
+    
+            <div id="footer-menu">
+                <ul>
+                    <li id="menu"><a id="menu" href="homeEnglish.html">Home</a></li>
+                    <li id="menu"><a id="menu" href="blogEnglish.html">Blog</a></li>
+                    <li id="menu"><a id="menu" href="contactEnglish.html">Contact</a></li>
+                </ul>
+            </div>
+    
+        </div>
+
+    <script src="contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@200;400&family=Oswald:wght@200;400&display=swap');
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin:0px; 
+    padding:0px;
+    color: #000000;
+    line-height: 1.6;
+    font-family: 'Montserrat';
+    font-weight: 200;
+}
+
+header {
+    height: 360px;
+    z-index: 10;
+    font-family: 'Courgette';
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: #2E9799;
+    position: fixed;
+    z-index: 10;
+}
+
+nav div {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    line-height: 60px;
+    position: absolute;
+    top: 0;
+    left: 2%;
+}
+
+nav ul { 
+    list-style-type: none;
+    margin: 0 2% auto 0;
+    padding-left: 0;
+    text-align: right;
+    max-width: 100%;
+}
+
+nav ul li { 
+    display: inline-block; 
+    line-height: 60px;
+    margin-left: 100px;
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #ffffff;
+}
+
+#presentation {
+    display: flex; 
+    margin: 0 auto;
+    width: 700px; 
+    margin-top: -200px;
+}
+
+#texte1 {
+    flex: 0 0 40% ; 
+    padding: 25px;
+    font-size: 20px;
+}
+
+#title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+#photoprofil {
+    flex: 0 0 50% ; 
+    padding: 25px ;  
+}
+
+/* Formulaire */
+
+#contact {
+    text-align: center ;
+    margin-top: 30px ;
+    font-size: 40px;
+}
+
+#formulaire {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 60px;
+}
+
+#formulaire1 {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 85px;
+}
+
+#nom {
+    margin-bottom: 15px;
+}
+
+#prenom {
+    margin-bottom: 15px;
+}
+
+#email {
+    margin-bottom: 15px;
+}
+
+#message {
+    margin-bottom: 15px;
+}
+
+/* Position bouton langue */
+
+#button {
+    display: flex; 
+    margin-left: 95%;
+    margin-top: -290px;
+}
+
+/* footer */
+
+#footer {
+    background-color: #2E9799;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    text-align: center;
+    margin-top: 155px;
+}
+
+#instagram {
+    flex: 0 0 20%;
+}
+
+#footer-menu {
+    flex: 0 0 30%;
+}
+
+#menu {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 500px;
+}
+
+#insta {
+    width: 30px;
+    height: auto;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+
+#carnets {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 20px;
+}
